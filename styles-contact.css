@@ -71,26 +71,37 @@ html, body {
 }
 
 .center {
-    width: 600px;
+    width: 800px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+ 	background: rgba(68, 68, 68, .75);/* rgba(255, 166, 38, .25); /*this uses opacity of 75% for the background color*/
 	text-align: center;
-	border: 4px dashed white;
+	border-radius: 50px;
+	/*border: 4px dashed white;*/
 }
 
-   
+.center2{
+	width: 800px;
+	padding: 2%;
+    margin: 100px auto;
+ 	background: rgba(68, 68, 68, 1);/* rgba(255, 166, 38, .25); /*this uses opacity of 75% for the background color*/
+	text-align: center;
+	border-radius: 50px;
+}
+
+
+
+
 #logo {
     margin-bottom: 16px;
-	border: 3px dashed red;
+	border: none;
 	text-align: center;
 }
 
 h1 {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
-	font-family: "pique-web", sans-serif;
-	/*font-family: franklin-gothic-compressed, sans-serif;*/
-	font-size: 2em;
+	font-family: "franklin-gothic-compressed", sans-serif; /*"pique-web", sans-serif;*/
+	font-size: 3em;
     margin: 0px auto 10px auto;
     color: #fff;
 }
@@ -100,9 +111,10 @@ h2 {
 	font-family: "franklin-gothic-compressed", sans-serif;
 	font-size: 1.5em;
     line-height: 1.4;
-    color: #fff;
+    color: #CCCC;
     padding: 0px 0px;
     margin: 0px auto 25px auto;
+	
 }
 
 p {
@@ -110,8 +122,46 @@ p {
 	font-family: "franklin-gothic-compressed", sans-serif;
 	font-size: 1.2em;
     line-height: 1.6;
-    color: #fff;
+    color:  #CCCC;
+	text-align: left;
 }
-    
-    
 
+
+h3 {
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */		
+	font-family: "franklin-gothic-compressed", sans-serif;
+	font-size: 1.2em;
+    line-height: 1.6;
+    color:  rgb(255, 166, 38);
+	text-align: center;
+}
+nav{
+	font-family: "franklin-gothic-compressed", sans-serif;
+	font-size: 1.2em;
+	width: 400px;
+	margin: 0 auto;
+	border: solid  #CCCC;
+	border-width: 3px 0;
+	text-align: center;
+	margin-top: 2em;
+}
+
+nav li{
+	display: inline;
+}
+
+nav a{
+	display: inline-block;
+	padding: 10px;
+}
+
+a{
+	color: #fff;;
+	text-decoration:none; /*removes underline*/
+	font-weight: bold;
+}
+
+a:hover{
+	color:balck;
+	background: rgba(255, 166, 38, 1);
+}
